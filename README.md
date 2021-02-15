@@ -4,7 +4,7 @@ To-do bot basit bir yapılacaklar listesi tutan bir bottur, eğer ayarladığın
 
 ## kurulum
 
-Önce .env_config dosyasının adını .env olarak değiştirin ve ardından istenen bilgileri eşittir işaretlerinin karşısına yazın.
+Öncelikle `.env_config` dosyasının adını `.env` olarak değiştirin ve ardından istenen bilgileri eşittir işaretlerinin karşısına yazın.
 
 - `TOKEN`: Botunuzun tokeni
 - `PREFIX`: Botunuzun prefixi
