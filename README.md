@@ -8,7 +8,7 @@ To-do bot basit bir yapılacaklar listesi tutan bir bottur, eğer ayarladığın
 
 - `TOKEN`: Botunuzun tokeni
 - `PREFIX`: Botunuzun prefixi
-- `EMOJI`: Yapılacaklar listesine eklenecek şeyin başında gelecek emoji
+- `EMOJI`: Yapılacaklar listesine eklenecek şeyin başında olması gereken emoji
 - `AUTHOR_ID`: Kendi idniz
 - `CHANNEL_ID`: Yapılacaklar listesine ekleneceklerin gönderileceği kanalın idsi
 - `GUILD_ID`: Kanalın bulunduğu sunucunun idsi
