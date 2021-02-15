@@ -16,7 +16,7 @@ To-do Bot basit bir yapılacaklar listesi tutan bir bottur, eğer ayarladığın
 Örnek: 
 ```
 TOKEN=ABCDEFGHIJKLMNOPRSTUVYZ
-PREFIX=_
+PREFIX=!
 EMOJI=<:to-do:123456789123456789>
 AUTHOR_ID=123456789123456789
 CHANNEL_ID=123456789123456789
