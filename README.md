@@ -29,6 +29,6 @@ node src/app.js
 ```
 
 ## bazı ekran görüntüleri
-![](https://huh.is-inside.me/Juj6PHic.png)
+![](https://huh.is-inside.me/QiJSLfrd.png)
 
-![](https://huh.is-inside.me/6BnYFAd0.png)
+![](https://huh.is-inside.me/tbwczQDO.png)
