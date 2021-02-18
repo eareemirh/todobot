@@ -1,7 +1,7 @@
 const { Client, Collection, MessageEmbed } = require("discord.js");
 const Logger = require("../Modules/Logger");
 const Functions = require("../Functions");
-const { TOKEN, PREFIX, EMOJI, AUTHOR_ID, CHANNEL_ID, GUILD_ID } = process.env;
+const { PREFIX, TOKEN, EMOJI, GUILD_ID, CHANNEL_ID, AUTHOR_ID } = process.env;
 
 class MyClient extends Client {
   constructor(options = {}) {
@@ -33,7 +33,10 @@ class MyClient extends Client {
 
   handle(message) {
     if (message.content.startsWith(EMOJI)) {
-      let str = message.content.replace(EMOJI, "");
+      let str = message.content.replace(EMOJI, "").trim();
+      if (str.length === 0) {
+        message.react("❌");
+      }
       const Embed = new MessageEmbed()
         .setColor(message.guild.member(this.user).displayHexColor)
         .setAuthor(
@@ -41,7 +44,10 @@ class MyClient extends Client {
           message.author.displayAvatarURL({ format: "png", size: 1024 }),
           `https://discord.com/users/${message.author.id}`
         )
-        .setDescription(str);
+        .setDescription(
+          str +
+            `\n\n[Mesaja gitmek için tıklayın](https://discord.com/channels/${message.guild.id}/${message.channel.id}/${message.id})`
+        );
 
       this.guilds.cache
         .get(GUILD_ID)
