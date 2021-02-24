@@ -1,4 +1,4 @@
-# todobot
+# to-dobot
 
 To-do bot basit bir yapılacaklar listesi tutan bir bottur, eğer ayarladığınız emojiyi mesajınızın en başına koyarsanız ve yapacağınız şeyi yazarsanız, bot mesajınızı, ayarladığınız sunucunun ayarladığınız kanalına gönderecektir, böylece mesajınızı orada istediğiniz zaman bulabilirsiniz.
 
