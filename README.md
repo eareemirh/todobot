@@ -27,8 +27,3 @@ Ardından konsolu açın ve bunu konsola yazın:
 ```
 node src/app.js
 ```
-
-## bazı ekran görüntüleri
-![](https://huh.is-inside.me/QiJSLfrd.png)
-
-![](https://huh.is-inside.me/tbwczQDO.png)
